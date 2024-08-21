@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Livros Online</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Catálogo de Livros Online</h1>
+  </header>
+
+  <section>
+    <img id="prateleira" src="assets/livros.jpeg" alt="Prateleira de livros">
+</section>
+
+<section id="busca-livros">
+    <label for="busca">Procure seu livro: </label>
+    <input type="text" id="busca" placeholder="Buscar por título, autor ou gênero">
+  </section>
+
+  <section id="todosOsLivros" class="grid-container">
+  </section>
+  <br>
+
+  <main>
+    <section id="adicionar-livro">
+      <form id="formulario">
+        <h2 id="addLivro">Adicionar Livro: </h2>
+        <div>
+          <label for="titulo">Título</label>
+          <input type="text" id="titulo" name="titulo" placeholder="Digite o título" required>
+        </div>
+        <div>
+          <label for="autor">Autor</label>
+          <input type="text" id="autor" name="autor" placeholder="Digite o autor" required>
+        </div>
+        <div>
+          <label for="genero">Gênero</label>
+          <input type="text" id="genero" name="genero" placeholder="Digite o gênero" required>
+        </div>
+        <div>
+          <label for="anoDePublicacao">Ano de Publicação</label>
+          <input type="number" id="anoDePublicacao" name="anoDePublicacao" placeholder="Digite o ano de publicação" required>
+        </div>
+        <button>Cadastrar</button>
+      </form>
+    </section>
+
+  
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Catálogo de Livros Online. Projeto da Bárbara da aula 12.</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
