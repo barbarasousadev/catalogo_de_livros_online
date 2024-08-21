@@ -4,7 +4,7 @@ const genero = document.querySelector("#genero")
 const anoDePublicacao = document.querySelector("#anoDePublicacao")
 
 const formulario = document.querySelector("#formulario")
-const busca = document.querySelector("#busca") // Adicionando o campo de busca
+const busca = document.querySelector("#busca") 
 const todosOsLivros = document.querySelector("#todosOsLivros")
 
 const listaDeLivros = JSON.parse(localStorage.getItem("biblioteca")) || []
